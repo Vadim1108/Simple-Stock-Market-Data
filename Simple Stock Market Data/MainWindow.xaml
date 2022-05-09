@@ -5,8 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Simple_Stock_Market_Data"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Stock Market Data" Height="480" Width="640" Loaded="Window_Loaded">
     <Grid>
-        
+        <TextBox x:Name="Element1" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Apple" VerticalAlignment="Top" Width="90" FontSize="18"/>
+        <TextBox x:Name="Element2" HorizontalAlignment="Left" Margin="10,41,0,0" TextWrapping="Wrap" Text="Microsoft" VerticalAlignment="Top" Width="90" FontSize="18"/>
+        <TextBox x:Name="Element3" HorizontalAlignment="Left" Margin="10,72,0,0" TextWrapping="Wrap" Text="S&amp;P500" VerticalAlignment="Top" Width="90" FontSize="18"/>
+        <TextBox x:Name="Element1Value" HorizontalAlignment="Left" Margin="105,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="90" FontSize="18"/>
+        <TextBox x:Name="Element2Value" HorizontalAlignment="Left" Margin="105,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="90" FontSize="18"/>
+        <TextBox x:Name="Element3Value" HorizontalAlignment="Left" Margin="105,72,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="90" FontSize="18"/>
+        <Button Content="Refresh" HorizontalAlignment="Left" Margin="105,103,0,0" VerticalAlignment="Top" FontSize="18" Width="90" Click="Button_Click"/>
+
     </Grid>
 </Window>
